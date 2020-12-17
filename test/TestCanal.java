@@ -48,4 +48,17 @@ class TestCanal {
             // Etape 3 test du retour = si on arrive ici, le test est concluant
         }
     }
+	
+	@Test
+	public void canalCompareToOK() {
+		Canal c = new Canal();
+		Canal d = new Canal():
+		Canal e = new Canal();
+		c.ordre = 42;
+		d.ordre = 42;
+		e.ordre = 43;
+		assertEquals(0, c.compareTo(d));
+		assertNotEquals(0, c.compareTo(e));
+		
+	}
 }
