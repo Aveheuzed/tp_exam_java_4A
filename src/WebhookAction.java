@@ -1,5 +1,5 @@
 import java.util.*;
 
-class WebhookAction {
-	
+enum WebhookAction {
+	ECRITURE_MESSAGE;
 }
