@@ -1,0 +1,8 @@
+enum Habilitation {
+	LECTURE,
+	ECRITURE,
+	MODIFICATION,
+	SUPRESSION,
+	DROIT_INVITATION;
+}
+	
